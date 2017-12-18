@@ -5,15 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name:="keywords" content="game typing-game practice">
+  <meta name="author" content="Tomasz Ziółkowski" lang="pl">
   <title>Type of the Dead</title>
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meshki/2.0.1/css/meshki.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/FontAwesome.otf">
 </head>
 
 <body>
-  <input type="text">
-  <div id="word"></div>
-  <div id="result"></div>
+  <div class="content">
+    <div class="row">
+      <h1 class="offset-by-five col">
+        <i class="fa fa-spin fa-cog fa-2x" aria-hidden="true"></i>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="one-half col offset-by-three" id="word-box">Type this word:
+        <span id="word"></span>
+      </div>
+    </div>
+    <div class="row">
+      <input class="one-half col offset-by-three" type="text" id="word-input">
+    </div>
+    <div class="row">
+      <div class="one-half col offset-by-three" id="result-box">Result:
+        <span id="result"></span>
+      </div>
+    </div>
+  </div>
   <script src="js/script.js"></script>
 </body>
 
