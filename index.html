@@ -12,27 +12,31 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/FontAwesome.otf">
+  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:500' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
   <div class="content">
     <div class="row">
-      <h1 class="offset-by-five col">
-        <i class="fa fa-spin fa-cog fa-2x" aria-hidden="true"></i>
+      <h1 class="offset-by-five one-half col">
+        <i class="fa fa-spin fa-cog fa-2x offset-by-three" aria-hidden="true"></i>
       </h1>
     </div>
     <div class="row">
-      <div class="one-half col offset-by-three" id="word-box">Type this word:
-        <span id="word"></span>
+      <div class="one-half col offset-by-three">Type this word:
+        <span id="word">~Placeholder~</span>
       </div>
     </div>
     <div class="row">
       <input class="one-half col offset-by-three" type="text" id="word-input">
     </div>
     <div class="row">
-      <div class="one-half col offset-by-three" id="result-box">Result:
-        <span id="result"></span>
+      <div class="one-half col offset-by-three">Result:
+        <span id="result">~Placeholder~</span>
       </div>
+    </div>
+    <div class="row">
+      <button class="large green expand col one-half offset-by-three" id="startBtn">Start</button>
     </div>
   </div>
   <script src="js/script.js"></script>
